@@ -7,7 +7,7 @@
 
 **Usage:**
 
-The **CoxRwrNet** package is for Survival analysis based on mutation data of TCGA BRCA patients, the user can perform:
+The **CoxRwrNet** package is for Survival analysis based on mutation data of TCGA Breast Invasive Carcinoma(BRCA) patients, the user can perform:
 
 Preprocessing of TCGA BRCA patient,clinical and mutation data.
 Calculate Prognostic index of each patients using model.
