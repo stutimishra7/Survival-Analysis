@@ -68,3 +68,35 @@
    MSI: MSI data.
    TMB: TMB data.
 
+**model.py**
+
+2. **`CoxPhRWRNet` Class:**
+   - **Constructor (`__init__`):**
+      - Initializes the neural network architecture.
+      - Parameters:
+        - `input_nodes`: Number of input nodes (features) for genomic data.
+        - `hidden_nodes1`: Number of nodes in the first hidden layer.
+        - `hidden_nodes2`: Number of nodes in the second hidden layer.
+        - `output_nodes`: Number of nodes in the output layer.
+
+   - **Attributes:**
+      - `tanh`: The hyperbolic tangent activation function (`nn.Tanh()`).
+
+      - `rwr_layer`: The linear layer for the Random Walk Restart (RWR) method, transforming genomic input.
+      
+      - `hidden_layer1`: The first hidden linear layer.
+
+      - `hidden_layer2`: The second hidden linear layer.
+
+      - `cox_layer`: The linear layer for Cox Proportional Hazard model, combining the RWR output and additional features (age, MSI, TMB).
+      
+   - **Methods (`forward`):**
+      - Defines the forward pass of the neural network.
+      - Takes genomic data (`x_genomic`), MSI data (`x_msi`), TMB data (`x_tmb`), and age data (`x_age`) as inputs.
+      - Applies the tanh activation function to the RWR layer and the two hidden layers.
+      - Concatenates the hidden layer 2 output with additional features.
+      - Passes the combined features through the Cox Proportional Hazard layer.
+      - Returns the output of the Cox Proportional Hazard layer.
+
+This architecture is designed for survival analysis, combining genomic data with additional features and using the Random Walk Restart method in the initial layers. The final layer produces the output for the Cox Proportional Hazard model.
+
