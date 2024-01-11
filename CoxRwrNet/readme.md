@@ -54,3 +54,17 @@
 15. **call_funs():**
     - Calls all the defined functions in sequence to load, clean, merge, calculate, and process data.
     - Saves the training, testing, and validation sets to CSV files.
+      
+**dataloader.py**
+- load_sorted_data(file_path, tensor_dtype):
+
+- Calls the sort_genomic_clinical_data function to obtain sorted data.
+- Converts the sorted data to PyTorch tensors with the specified tensor_dtype.
+- Returns the following PyTorch tensors:
+   X: Genomic inputs.
+   YTIME: Survival time.
+   YEVENT: Censoring status.
+   AGE: Age data.
+   MSI: MSI data.
+   TMB: TMB data.
+
