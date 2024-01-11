@@ -1,9 +1,9 @@
-from dataloader import load_sorted_data
 
+from dataloader import load_sorted_data
+from RWR_data_bulder import cll_funs 
 from train import train_cox_rwrnnet
 
 from CostFunc_CIndex import create_indicator_matrix, concordance_index,  negative_partial_log_likelihood
-
 import torch
 import numpy as np
 
@@ -27,6 +27,7 @@ Dropout_Rate = [0.7,0.5]
 # x_train, ytime_train, yevent_train, age_train = load_data("train_tcga_ov.csv", dtype)
 # x_valid, ytime_valid, yevent_valid, age_valid = load_data("validation_data_tcga_ov.csv", dtype)
 # x_test, ytime_test, yevent_test, age_test = load_data("test_final_tcga_ov.csv", dtype)
+cll_funs()
 x_train, ytime_train, yevent_train, age_train,msi_train,tmb_train = load_sorted_data("train_tcga_Brca_all_cosmic_tmb.csv", dtype)
 x_valid, ytime_valid, yevent_valid, age_valid,msi_valid,tmb_valid = load_sorted_data("validation_data_tcga_Brca_all_cosmic_tmb.csv", dtype)
 x_test, ytime_test, yevent_test, age_test,msi_test,tmb_test = load_sorted_data("test_final_tcga_Brca_all_cosmic_tmb.csv", dtype)
