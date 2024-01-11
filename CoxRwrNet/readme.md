@@ -70,7 +70,7 @@
 
 **model.py**
 
-2. **`CoxPhRWRNet` Class:**
+1. **`CoxPhRWRNet` Class:**
    - **Constructor (`__init__`):**
       - Initializes the neural network architecture.
       - Parameters:
