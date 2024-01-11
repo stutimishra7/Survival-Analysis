@@ -3,32 +3,6 @@
 ![proposed](https://github.com/sakshig26/Survival-Analysis/assets/104989737/a72d0271-2520-4475-b95b-fe4fdad047e5)
 
 
-project_root/
-│
-├── data_loader.py
-├── data_processing.py
-├── network_analysis.py
-├── utils.py
-├── config.yaml
-├── main_script.py
-├── test/
-│   ├── test_data_loader.py
-│   ├── test_data_processing.py
-│   ├── test_network_analysis.py
-│   └── ...
-└── data/
-    ├── dataset1/
-    │   ├── data_clinical_patient.txt
-    │   ├── data_clinical_sample.txt
-    │   ├── data_mutations.txt
-    │   └── ...
-    └── dataset2/
-        ├── data_clinical_patient.txt
-        ├── data_clinical_sample.txt
-        ├── data_mutations.txt
-        └── ...
-
-
 
 
 **Usage:**
