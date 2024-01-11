@@ -3,6 +3,32 @@
 ![proposed](https://github.com/sakshig26/Survival-Analysis/assets/104989737/a72d0271-2520-4475-b95b-fe4fdad047e5)
 
 
+project_root/
+│
+├── data_loader.py
+├── data_processing.py
+├── network_analysis.py
+├── utils.py
+├── config.yaml
+├── main_script.py
+├── test/
+│   ├── test_data_loader.py
+│   ├── test_data_processing.py
+│   ├── test_network_analysis.py
+│   └── ...
+└── data/
+    ├── dataset1/
+    │   ├── data_clinical_patient.txt
+    │   ├── data_clinical_sample.txt
+    │   ├── data_mutations.txt
+    │   └── ...
+    └── dataset2/
+        ├── data_clinical_patient.txt
+        ├── data_clinical_sample.txt
+        ├── data_mutations.txt
+        └── ...
+
+
 
 
 **Usage:**
@@ -12,6 +38,8 @@ The **CoxRwrNet** package is for Survival analysis based on mutation data of TCG
 Preprocessing of TCGA BRCA patient,clinical and mutation data.
 Calculate Prognostic index of each patients using model.
 Visualize survival results and Rwr score patterns.
+
+
 
 
 This repository contains code, data and results in BRCA, OV, GBM and Lung cancer folders & results for COX-RWRnet model for various conditions. We have compared our model COX-RWR net with existing models and those results are present in these repository.
