@@ -100,3 +100,25 @@
 
 This architecture is designed for survival analysis, combining genomic data with additional features and using the Random Walk Restart method in the initial layers. The final layer produces the output for the Cox Proportional Hazard model.
 
+
+**train.py**
+1. Trains a Cox proportional hazards model with a neural network structure.
+
+    Parameters:
+    - train_x, eval_x: Training and evaluation input features.
+    
+    - train_age, eval_age: Age information for training and evaluation.
+    - train_ytime, eval_ytime: Time-to-event for training and evaluation.
+    - train_yevent, eval_yevent: Event indicator for training and evaluation.
+    - train_msi, eval_msi: Microsatellite instability for training and evaluation.
+    - train_tmb, eval_tmb: Tumor mutational burden for training and evaluation.
+    - In_Nodes, hidden_nodes1, hidden_nodes2, Out_Nodes: Neural network architecture parameters.
+    - Learning_Rate: Learning rate for optimization.
+    - L2: L2 regularization parameter.
+    - Num_Epochs: Number of training epochs.
+
+    Returns:
+    - Tuple containing training loss, evaluation loss, training concordance index, and evaluation concordance index.
+
+
+    
