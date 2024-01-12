@@ -4,17 +4,17 @@
 
 
 
-**Usage:**
+# Usage:
 
-The **CoxRwrNet** package is for Survival analysis based on mutation data of TCGA Breast Invasive Carcinoma(BRCA) patients, the user can perform:
+The **CoxRwrNet** package is for Survival analysis based on mutation data of TCGA Cancer patients, the user can perform:
 
 Preprocessing of TCGA BRCA patient,clinical and mutation data.
 Calculate Prognostic index of each patients using model.
-Visualize survival results and Rwr score patterns.
+Visualize survival results and RWR score patterns.
 
 # System Requirements
-  ## Hardware
-The machine learning and deep learning models were trained on a system with a following specs:
+## Hardware
+The machine learning and deep learning models were trained on a system with the following specifications:
 
 RAM: 8+ GB
 CPU: 2 cores
@@ -25,7 +25,6 @@ GPU: 15360MiB
 Linux (Ubuntu 22.04.3 LT)
 
 Microsoft Windows 10
-
 
 ## Download Github repository
 
@@ -40,8 +39,3 @@ git clone https://github.com/stutimishra7/Survival-Analysis
 - pytorch=2.0.1
 - scikit-learn=1.2.2
 - scipy=1.10.1
-
-
-
-
-
