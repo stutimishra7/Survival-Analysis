@@ -1,6 +1,7 @@
 # Survival-Analysis
 
-![proposed](https://github.com/sakshig26/Survival-Analysis/assets/104989737/a72d0271-2520-4475-b95b-fe4fdad047e5)
+![WhatsApp Image 2024-01-11 at 11 36 02 AM](https://github.com/stutimishra7/Survival-Analysis/assets/105044948/d5cd1bc1-3b02-47b5-adae-7624ee361ef5)
+
 
 
 
