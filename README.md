@@ -4,7 +4,7 @@
 
 
 
-# Usage:
+# Usage
 
 The **CoxRWRNet** package is for Survival analysis based on mutation data of TCGA Cancer patients, the user can perform:
 
