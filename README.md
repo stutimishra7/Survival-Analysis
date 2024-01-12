@@ -27,3 +27,10 @@ Linux (Ubuntu 22.04.3 LT)
 Microsoft Windows 10
 
 
+## Download Github repository
+
+git clone https://github.com/stutimishra7/Survival-Analysis
+
+## Requirements
+
+
