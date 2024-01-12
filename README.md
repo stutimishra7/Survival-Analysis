@@ -32,5 +32,16 @@ Microsoft Windows 10
 git clone https://github.com/stutimishra7/Survival-Analysis
 
 ## Requirements
+- pandas=1.5.3
+- numpy=1.25.0
+- lifelines==0.28.0
+- matplotlib==3.8.2
+- rpy2==3.5.15
+- pytorch=2.0.1
+- scikit-learn=1.2.2
+- scipy=1.10.1
+
+
+
 
 
