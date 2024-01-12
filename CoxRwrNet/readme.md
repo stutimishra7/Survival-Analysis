@@ -1,7 +1,7 @@
 **RWR_data_bulder.py**
 
 
-2. **load_data():**
+1. **load_data():**
    - Reads clinical patient, clinical sample, and mutation data from three different files (`data_clinical_patient.txt`, `data_clinical_sample.txt`, and `data_mutations.txt`).
    - Returns the dataframes.
 
@@ -119,6 +119,9 @@ This architecture is designed for survival analysis, combining genomic data with
 
     Returns:
     - Tuple containing training loss, evaluation loss, training concordance index, and evaluation concordance index.
+      
+**Run_train.py**
+
 
 
     
