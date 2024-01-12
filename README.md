@@ -1,5 +1,5 @@
-# Survival-Analysis
-
+# Title: Survival analysis based on mutation data of cancer patients 
+## CoxRwrNet is a deep neural network-based package for predicting high and low-risk groups.
 ![WhatsApp Image 2024-01-11 at 11 36 02 AM](https://github.com/stutimishra7/Survival-Analysis/assets/105044948/d5cd1bc1-3b02-47b5-adae-7624ee361ef5)
 
 
