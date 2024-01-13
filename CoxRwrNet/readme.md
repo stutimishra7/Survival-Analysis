@@ -7,3 +7,6 @@
 
 **model.py**
 - This PyTorch script defines a Cox proportional hazards regression model (`CoxPhRWRNet`) with a random walk restart (RWR) layer, utilizing genomic inputs, MSI scores, TMB scores, and patient age. The model comprises two hidden layers with tanh activation and a Cox layer incorporating additional features for predicting hazard ratios.
+- 
+**train.py**
+The script defines a training function (`train_cox_rwrnnet`) for a Cox proportional hazards regression model with a random walk restart network, using negative partial log-likelihood as the loss function and Adam optimizer. The function returns training and evaluation losses, along with concordance indices during training.
