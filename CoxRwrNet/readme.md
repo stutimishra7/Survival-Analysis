@@ -13,3 +13,6 @@
   
 **Run_train.py**
 - This script loads data, conducts hyperparameter grid search, trains a Cox proportional hazards model using optimal parameters, and prints the best hyperparameters along with the concordance index on the test set.
+
+**CostFunc_CIndex.py**
+- The script provides PyTorch functions for creating an indicator matrix of risk sets, computing the negative partial log-likelihood, and evaluating the concordance index.
