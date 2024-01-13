@@ -16,3 +16,6 @@
 
 **CostFunc_CIndex.py**
 - The script provides PyTorch functions for creating an indicator matrix of risk sets, computing the negative partial log-likelihood, and evaluating the concordance index.
+  
+**Run_for_entiredata.py**
+- Conducts interpretation of model on the entire dataset, saving key model details, weights, and node values. Linear predictions and survival data are combined and stored for analysis.
