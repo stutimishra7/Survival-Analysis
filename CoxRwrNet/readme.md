@@ -19,3 +19,6 @@
   
 **Run_for_entiredata.py**
 - Conducts interpretation of model on the entire dataset, saving key model details, weights, and node values. Linear predictions and survival data are combined and stored for analysis.
+
+**Run_Survival.py**
+- This script generates Kaplan-Meier survival plots for high and low-risk groups based on a median cutoff of a prognostic index (PI) calculated from a Cox proportional hazards model. It includes statistical analysis using the log-rank test and saves the plots in a PDF file.
