@@ -10,5 +10,6 @@
 
 **train.py**
 - The script defines a training function (`train_cox_rwrnnet`) for a Cox proportional hazards regression model with a random walk restart network, using negative partial log-likelihood as the loss function and Adam optimizer. The function returns training and evaluation losses, along with concordance indices during training.
+  
 **Run_train.py**
-This script loads data, conducts hyperparameter grid search, trains a Cox proportional hazards model using optimal parameters, and prints the best hyperparameters along with the concordance index on the test set.
+- This script loads data, conducts hyperparameter grid search, trains a Cox proportional hazards model using optimal parameters, and prints the best hyperparameters along with the concordance index on the test set.
