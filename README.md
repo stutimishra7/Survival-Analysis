@@ -1,12 +1,13 @@
-# Survival analysis based on mutation data of cancer patients 
-## CoxRWRNet is a deep neural network-based package for predicting high and low-risk groups.
+# RCoxNet: Network-diffusion powered Deep Cox Proportional Hazard model for improved survival prediction based on cancer mutations
+ 
+
 ![WhatsApp Image 2024-01-11 at 11 36 02 AM](https://github.com/stutimishra7/Survival-Analysis/assets/105044948/d5cd1bc1-3b02-47b5-adae-7624ee361ef5)
 
 
 
 # Usage
 
-The **CoxRWRNet** package is for Survival analysis based on mutation data of TCGA Cancer patients, the user can perform:
+The **RCoxNet** package is for Survival analysis based on mutation data of TCGA Cancer patients, the user can perform:
 
 Preprocessing of TCGA BRCA patient, clinical and mutation data.
 Calculate Prognostic index of each patients using model.
