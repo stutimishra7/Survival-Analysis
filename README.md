@@ -1,8 +1,6 @@
 # RCoxNet: Network-diffusion powered Deep Cox Proportional Hazard model for improved survival prediction based on cancer mutations
- 
 
-![WhatsApp Image 2024-01-11 at 11 36 02 AM](https://github.com/stutimishra7/Survival-Analysis/assets/105044948/d5cd1bc1-3b02-47b5-adae-7624ee361ef5)
-
+![image](https://github.com/stutimishra7/Survival-Analysis/assets/70698090/afe7e14d-99c1-487f-9c7e-f4bebc6f71c8)
 
 
 # Usage
