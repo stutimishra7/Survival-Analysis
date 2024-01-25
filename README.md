@@ -3,7 +3,7 @@
 ![image](https://github.com/stutimishra7/Survival-Analysis/assets/70698090/afe7e14d-99c1-487f-9c7e-f4bebc6f71c8)
 
 
-# Usage
+## Usage
 
 The **RCoxNet** package is for Survival analysis based on mutation data of TCGA Cancer patients, the user can perform:
 
@@ -11,7 +11,7 @@ Preprocessing of TCGA BRCA patient, clinical and mutation data.
 Calculate Prognostic index of each patients using model.
 Visualize survival results and RWR score patterns.
 
-# System Requirements
+## System Requirements
 ## Hardware
 The machine learning and deep learning models were trained on a system with the following specifications:
 
