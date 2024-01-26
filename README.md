@@ -44,6 +44,4 @@ Microsoft Windows 10
 git clone https://github.com/stutimishra7/Survival-Analysis
 
 # Contributing
-Source code: Available in this Github
-
 For further information contact debarka@iiitd.ac.in or stutik@iiitd.ac.in.
