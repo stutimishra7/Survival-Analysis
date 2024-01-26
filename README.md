@@ -18,12 +18,16 @@ The **RCoxNet** package is for improving survival outcomes using TCGA mutation d
 
 ## System Requirements
 The deep learning models were trained on a system with the following specifications:
+
 RAM: 8+ GB
+
 CPU: 2 cores
+
 GPU: 15360MiB
 
 ## Platforms used for training models
 Linux (Ubuntu 22.04.3 LT)
+
 Microsoft Windows 10
 
 ## Prerequisites
