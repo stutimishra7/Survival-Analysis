@@ -129,5 +129,8 @@ Returns:
 
 Tuple containing training loss, evaluation loss, training concordance index, and evaluation concordance index.
 
+<p><b>Run_train.py</b></p>
+train RCoxNet with optimal hyperparameters using train data, and then evaluate the trained model with test data
+Note that test data are only used to evaluate the trained RCoxNet.
 
 
