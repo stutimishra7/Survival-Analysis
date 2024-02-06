@@ -56,8 +56,6 @@ for l2 in L2_Lambda:
 
 
 
-###train Cox-PASNet with optimal hyperparameters using train data, and then evaluate the trained model with test data
-###Note that test data are only used to evaluate the trained Cox-PASNet
 loss_train, loss_test, c_index_tr, c_index_te = train_cox_rwrnnet(x_train, age_train, ytime_train, yevent_train,msi_train,tmb_train, \
 							x_test, age_test, ytime_test, yevent_test,msi_test,tmb_test ,\
 							In_Nodes, hidden_nodes1 , hidden_nodes2, Out_Nodes, \
