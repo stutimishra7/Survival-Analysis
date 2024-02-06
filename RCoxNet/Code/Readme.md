@@ -1,6 +1,6 @@
 Explanation of RCoxNet parameters:
 
-RWR_data_bulder.py
+<b>RWR_data_bulder.py</b>
 
 load_data():
 
@@ -56,7 +56,7 @@ call_funs():
 
 Calls all the defined functions in sequence to load, clean, merge, calculate, and process data.
 Saves the training, testing, and validation sets to CSV files.
-dataloader.py
+<b>dataloader.py</b>
 
 load_sorted_data(file_path, tensor_dtype):
 
@@ -66,7 +66,7 @@ Converts the sorted data to PyTorch tensors with the specified tensor_dtype.
 
 Returns the following PyTorch tensors: X: Genomic inputs. YTIME: Survival time. YEVENT: Censoring status. AGE: Age data. MSI: MSI data. TMB: TMB data.
 
-model.py
+<b>model.py</b>
 
 RCoxNet Class:
 Constructor (__init__):
@@ -99,7 +99,7 @@ Passes the combined features through the Cox Proportional Hazard layer.
 Returns the output of the Cox Proportional Hazard layer.
 This architecture is designed for survival analysis, combining genomic data with additional features and using the Random Walk Restart method in the initial layers. The final layer produces the output for the Cox Proportional Hazard model.
 
-train.py
+<b>train.py</b>
 
 Trains a Cox proportional hazards model with a neural network structure.
 
