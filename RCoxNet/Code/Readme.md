@@ -74,6 +74,7 @@ Train RCoxNet with optimal hyperparameters using train data, and then evaluate t
 Note that test data are only used to evaluate the trained RCoxNet.
 
 <p><b>Train_for_entiredata.py</b></p>
+Train model on entire dataset
 
 <p><b>dataloader.py</b></p>
 
