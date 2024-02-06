@@ -1,6 +1,9 @@
 Explanation of RCoxNet parameters:
+<p><b>CostFunc_CIndex.py</b></p>
 
-<b>RWR_data_bulder.py</b>
+This python file is for calculating cost function 
+
+<p><b>RWR_data_bulder.py</b></p>
 
 load_data():
 
@@ -56,6 +59,22 @@ call_funs():
 
 Calls all the defined functions in sequence to load, clean, merge, calculate, and process data.
 Saves the training, testing, and validation sets to CSV files.
+
+
+
+<b><p>Run_Survival.py</p></b>
+plot survival plot from output of the RCoxNet model
+
+<p><b>Run_for_entiredata.py</b></p>
+run the model for entire dataset
+
+
+<p><b>Run_train.py</b></p>
+Train RCoxNet with optimal hyperparameters using train data, and then evaluate the trained model with test data
+Note that test data are only used to evaluate the trained RCoxNet.
+
+<p><b>Train_for_entiredata.py</b></p>
+
 <p><b>dataloader.py</b></p>
 
 load_sorted_data(file_path, tensor_dtype):
@@ -129,11 +148,7 @@ Returns:
 
 Tuple containing training loss, evaluation loss, training concordance index, and evaluation concordance index.
 
-<p><b>Run_train.py</b></p>
-Train RCoxNet with optimal hyperparameters using train data, and then evaluate the trained model with test data
-Note that test data are only used to evaluate the trained RCoxNet.
 
-<b><p>Run_Survival.py</p></b>
-plot survival plot from output of the RCoxNet model
+
 
 
