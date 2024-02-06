@@ -66,7 +66,7 @@ Converts the sorted data to PyTorch tensors with the specified tensor_dtype.
 
 Returns the following PyTorch tensors: X: Genomic inputs. YTIME: Survival time. YEVENT: Censoring status. AGE: Age data. MSI: MSI data. TMB: TMB data.
 
-<p><b>model.py</b></p>p>
+<p><b>model.py</b></p>
 
 RCoxNet Class:
 Constructor (__init__):
@@ -128,3 +128,6 @@ Num_Epochs: Number of training epochs.
 Returns:
 
 Tuple containing training loss, evaluation loss, training concordance index, and evaluation concordance index.
+
+
+
