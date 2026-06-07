@@ -1,0 +1,6 @@
+{
+    "BRCA": {"alpha": 0.8, "K": 600, "hidden1": 64,  "hidden2": 16, "output_nodes": 4,  "lr": 1e-4, "l2": 0.01},
+    "GBM":  {"alpha": 0.7, "K": 800, "hidden1": 32,  "hidden2": 16, "output_nodes": 8,  "lr": 3e-4, "l2": 0.03},
+    "LUNG": {"alpha": 0.8, "K": 800, "hidden1": 128, "hidden2": 64, "output_nodes": 16, "lr": 3e-4, "l2": 0.001},
+    "OV":   {"alpha": 0.8, "K": 600, "hidden1": 128, "hidden2": 64, "output_nodes": 16, "lr": 3e-4, "l2": 0.03}
+}
